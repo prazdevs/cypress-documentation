@@ -21,10 +21,10 @@ Cypress est un outil de test nouvelle génération, orienté front end et adapt�
 
 Cypress nous permet de:
 
-- {% urlHash 'Paramétrer des tests' Paramétrer-des-tests %}
-- {% urlHash 'Ecrire des test' Ecrire-des-tests %}
-- {% urlHash 'Exécuter des tests' Exécuter-des-tests %}
-- {% urlHash 'Déboguer des tests' Déboguer-des-tests %}
+- Paramétrer des tests
+- Ecrire des tests
+- Exécuter des tests
+- Déboguer des tests
 
 Cypress est très souvent comparé à Sélénium; cependant Cypress est à la fois fondamentalement et architecturalement différent. Cypress ne subit pas les mêmes contraintes que Sélénium.
 
@@ -43,16 +43,6 @@ Cypress vous permet d'écrire tout type de test:
 Cypress peut tester tout ce qui s'exécute dans un navigateur.
 
 # L'écosystème Cypress
-
-{% note info %}
-### Tester et déboguer plus rapidement avec le tableau de bord Cypress
-
-- Trouvez les points d'échec exacts des tests éxécutés en intégration continue
-- Réduisez les temps d'exécution en exécutant les tests en parallèles
-- Recevez instantanément les alertes d'échec sur Slack ou GitHub
-
-<a href="https://www.cypress.io/dashboard" class="button">En savoir plus</a>
-{% endnote %} 
 
 Cypress consiste en un exécuteur de tests gratuit, {% url "open source" https://github.com/cypress-io/cypress %}, {% url "installé localement" installing-cypress %} et en un service de tablea de bord pour {% url 'enregistrer vos tests' dashboard-introduction%}
 
@@ -84,7 +74,7 @@ Cypress est prêt-à-l'emploi, piles incluses. Voici une liste des choses qu'il 
 - **Captures d'écran et vidéos:** Observez des captures d'écran prises automatiquement lors d'un échec ou une vidéo de l'exécution d'une suite de tests lancée depuis la ligne de commande.
 - **Testing multi-navigateur:** Exécutez des tests depuis Firefox ou des navigateurs basés sur Chrome (dont Edge et Electron) localement et {% url "de façon optimale dans un processus d'intégration continue" cross-browser-testing %}.
 
-## {% fa fa-cog %} Paramétrage des tests
+## {% fa fa-cog %} Paramétrer des tests
 
 Il n'y a ni serveur, ni driver, ni aucune autre dépendance à installer ou à configurer. Vous pouvez écrire votre premier test réussi en 60 secondes.
 There are no servers, drivers, or any other dependencies to install or configure. You can write your first passing test in 60 seconds.
