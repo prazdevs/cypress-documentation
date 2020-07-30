@@ -16,6 +16,7 @@ language:
   - pt-br
   - ru
   - es
+  - fr
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -46,6 +47,7 @@ alias:
   pt-br/: pt-br/guides/overview/why-cypress.html
   ru/: ru/guides/overview/why-cypress.html
   es/: es/guides/overview/why-cypress.html
+  fr/: fr/guides/overview/why-cypress.html
 
   guides/index.html: guides/overview/why-cypress.html
   guides.html: guides/overview/why-cypress.html
