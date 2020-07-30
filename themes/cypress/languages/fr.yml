@@ -10,77 +10,77 @@ index:
   get-started: Guide de démarrage
 
 page:
-  contents: Contents
-  back-to-top: Back to Top
-  improve: Improve this doc
-  prev: Prev
-  next: Next
-  last-updated: "Last updated: %s"
+  contents: Contenu
+  back-to-top: Retourner en haut
+  improve: Améliorer cette documentation
+  prev: Précedent
+  next: Suivant
+  last-updated: "*Dernière mise à jour: %s"
 
 sidebar:
   guides:
-    overview: Overview
-    why-cypress: Why Cypress?
-    getting-started: Getting Started
-    key-differences: Key Differences
-    installing-cypress: Installing Cypress
-    writing-your-first-test: Writing Your First Test
-    testing-your-app: Testing Your App
-    interacting-with-elements: Interacting with Elements
-    core-concepts: Core Concepts
-    introduction-to-cypress: Introduction to Cypress
-    writing-and-organizing-tests: Writing and Organizing Tests
-    conditional-testing: Conditional Testing
-    test-runner: The Test Runner
-    dashboard: Dashboard
+    overview: Général
+    why-cypress: Pourquoi Cypress?
+    getting-started: Guide de démarrage
+    key-differences: Principales différences
+    installing-cypress: Installer Cypress
+    writing-your-first-test: Ecrire son premier test
+    testing-your-app: Tester son application
+    interacting-with-elements: Intéragir avec les éléments
+    core-concepts: Concepts fondamentaux
+    introduction-to-cypress: Introduction à Cypress
+    writing-and-organizing-tests: Ecrire et organiser des tests
+    conditional-testing: Tests conditionnels
+    test-runner: L'éxecuteur de tests'
+    dashboard: Tableau de bord
     dashboard-introduction: Introduction
-    projects: Projects
-    runs: Runs
-    organizations: Organizations
-    users: Users
-    github-integration: GitHub Integration
-    slack-integration: Slack Integration
-    analytics: Analytics
-    debugging: Debugging
-    variables-and-aliases: Variables and Aliases
-    stubs-spies-and-clocks: Stubs, Spies, and Clocks
-    network-requests: Network Requests
-    screenshots-and-videos: Screenshots and Videos
+    projects: Projets
+    runs: Enregistrements
+    organizations: Organisations
+    users: Utilisateurs
+    github-integration: Intégration GitHub
+    slack-integration: Intégration Slack
+    analytics: Analyses
+    debugging: Débogage
+    variables-and-aliases: Variables et aliases
+    stubs-spies-and-clocks: Stubs, spies, et clocks
+    network-requests: Requêtes réseau
+    screenshots-and-videos: Captures d'écran et videos
     guides: Guides
-    command-line: Command Line
-    continuous-integration: Continuous Integration
-    parallelization: Parallelization
-    environment-variables: Environment Variables
-    launching-browsers: Launching Browsers
-    cross-browser-testing: Cross Browser Testing
-    custom-commands: Custom Commands
-    web-security: Web Security
-    references: References
+    command-line: Ligne de commande (CLI)
+    continuous-integration: Intégration Continue (CI)
+    parallelization: Parallélisation
+    environment-variables: Variables d'environnement
+    launching-browsers: Lancement du navigateur
+    cross-browser-testing: Tests multi-navigateurs
+    custom-commands: Commandes personalisées
+    web-security: Sécurité
+    references: Références
     configuration: Configuration
-    experiments: Experiments
-    proxy-configuration: Proxy Configuration
-    error-messages: Error Messages
-    bundled-tools: Bundled Tools
+    experiments: Expérimentation
+    proxy-configuration: Configuration de proxy
+    error-messages: Messages d'erreur
+    bundled-tools: Outils fournis
     assertions: Assertions
-    best-practices: Best Practices
-    trade-offs: Trade-offs
-    troubleshooting: Troubleshooting
+    best-practices: Bonnes pratiques
+    trade-offs: Compromis
+    troubleshooting: Dépannage
     changelog: Changelog
-    migration-guide: Migration Guide
+    migration-guide: Guide de migration
     roadmap: Roadmap
-    tooling: Tooling
-    IDE-integration: IDE Integration
+    tooling: Outils
+    IDE-integration: Intégration à l'IDE
     plugins-guide: Plugins
-    reporters: Reporters
+    reporters: Suivis
     typescript-support: TypeScript
-    module-api: Module API
-    retry-ability: Retry-ability
-    visual-testing: Visual Testing
-    code-coverage: Code Coverage
+    module-api: API Module
+    retry-ability: Réessai
+    visual-testing: Tests visuels
+    code-coverage: Couverture de code
   api:
     api: API
-    table-of-contents: Table of Contents
-    commands: Commands
+    table-of-contents: Table des matières
+    commands: Commandes
     and: and
     as: as
     blur: blur
@@ -163,9 +163,9 @@ sidebar:
     wrap: wrap
     writefile: writeFile
     events: Events
-    catalog-of-events: Catalog of Events
+    catalog-of-events: Catalogue des évènements
     assertions: Assertions
-    all-assertions: All Assertions
+    all-assertions: Toutes les assertions
     on: on
     once: once
     removelistener: removeListener
@@ -178,20 +178,20 @@ sidebar:
     blob: Blob
     promise: Promise
     sinon: sinon
-    cypress-api: Cypress API
+    cypress-api: API Cypress
     config: config
     env: env
     isbrowser: isBrowser
     iscy: isCy
-    custom-commands: Commands
+    custom-commands: Commandes
     cookies: Cookies
     dom: dom
     cypress-log: log
     cypress-server: Server
     plugins: Plugins
-    writing-a-plugin: Writing a Plugin
-    preprocessors-api: Preprocessors
-    browser-launch-api: Browser Launching
+    writing-a-plugin: Créer un plugin
+    preprocessors-api: Préprocesseurs
+    browser-launch-api: Lancement du navigateur
     configuration-api: Configuration
     version: version
     arch: arch
@@ -202,23 +202,23 @@ sidebar:
     after-screenshot-api: After Screenshot
     spec: spec
   examples:
-    examples: Examples
-    recipes: Recipes
-    tutorials: Tutorial Videos
+    examples: Exemples
+    recipes: Exemples
+    tutorials: Tutoriels Vidéo
     applications: Applications
     docker: Docker
-    media: Media
-    courses-media: Courses
-    webinars-media: Webinars
+    media: Média
+    courses-media: Cours
+    webinars-media: Webinaires
     blogs-media: Blogs
-    talks-media: Talks
+    talks-media: Conférences
     podcasts-media: Podcasts
     screencasts-media: Screencasts
     workshop: Workshop
-    projects-media: Projects
+    projects-media: Projets
   faq:
     questions: FAQ
-    general-questions-faq: General Questions
-    using-cypress-faq: Using Cypress
-    dashboard-faq: Dashboard
-    company-faq: Company
+    general-questions-faq: Questions générales
+    using-cypress-faq: Utiliser Cypress
+    dashboard-faq: Tableau de bord
+    company-faq: Cypress
