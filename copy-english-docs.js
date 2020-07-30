@@ -18,6 +18,7 @@ const getLanguageName = (short) => {
     'pt-br': 'Portuguese Brazil',
     'ru': 'Russian',
     'es': 'Spanish',
+    'fr': 'French',
   }
 
   if (!names[short]) {
@@ -54,8 +55,9 @@ const isChineseDoc = R.test(/\/zh-cn\//)
 const isPortugueseDoc = R.test(/\/pt-br\//)
 const isRussianDoc = R.test(/\/ru\//)
 const isSpanishDoc = R.test(/\/es\//)
+const isFrenchDoc = R.test(/\/fr\//)
 const isImage = R.test(/\/img\//)
-const isTranslation = R.anyPass([isJapaneseDoc, isChineseDoc, isPortugueseDoc, isRussianDoc, isSpanishDoc, isImage])
+const isTranslation = R.anyPass([isJapaneseDoc, isChineseDoc, isPortugueseDoc, isRussianDoc, isSpanishDoc, isFrenchDoc, isImage])
 
 const translationsFilter = R.reject(isTranslation)
 
@@ -66,7 +68,7 @@ const findAllEnglishDocs = () => {
 }
 
 /**
- * @param {("ja" | "zh-cn" | "pt-br" | "ru" | "es")} shortName The short language name
+ * @param {("ja" | "zh-cn" | "pt-br" | "ru" | "es" | "fr")} shortName The short language name
  */
 const findAllDocsFor = (shortName) => {
   const relativeSourceFolder = `source/${shortName}`
@@ -75,7 +77,7 @@ const findAllDocsFor = (shortName) => {
 }
 
 /**
- * @param {("ja" | "zh-cn" | "pt-br" | "ru" | "es")} targetLanguage
+ * @param {("ja" | "zh-cn" | "pt-br" | "ru" | "es" | "fr")} targetLanguage
  */
 const copyAllEnglishDocsNotTranslatedTo = (targetLanguage) => {
   return Promise.all([
@@ -119,6 +121,8 @@ const copyUntranslatedDocs = () => {
     return copyAllEnglishDocsNotTranslatedTo('ru')
   }).then(() => {
     return copyAllEnglishDocsNotTranslatedTo('es')
+  }).then(() => {
+    return copyAllEnglishDocsNotTranslatedTo('fr')
   })
 }
 
