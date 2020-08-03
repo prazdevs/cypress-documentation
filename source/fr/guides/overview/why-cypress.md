@@ -21,10 +21,10 @@ Cypress est un outil de test nouvelle génération, orienté front end et adapt�
 
 Cypress nous permet de:
 
-- Paramétrer des tests
-- Ecrire des tests
-- Exécuter des tests
-- Déboguer des tests
+- {% urlHash 'Parametrer des tests' Parametrer-des-tests %}
+- {% urlHash 'Ecrire des test' Ecrire-des-tests %}
+- {% urlHash 'Executer des tests' Executer-des-tests %}
+- {% urlHash 'Deboguer des tests' Deboguer-des-tests %}
 
 Cypress est très souvent comparé à Sélénium; cependant Cypress est à la fois fondamentalement et architecturalement différent. Cypress ne subit pas les mêmes contraintes que Sélénium.
 
@@ -74,7 +74,7 @@ Cypress est prêt-à-l'emploi, piles incluses. Voici une liste des choses qu'il 
 - **Captures d'écran et vidéos:** Observez des captures d'écran prises automatiquement lors d'un échec ou une vidéo de l'exécution d'une suite de tests lancée depuis la ligne de commande.
 - **Testing multi-navigateur:** Exécutez des tests depuis Firefox ou des navigateurs basés sur Chrome (dont Edge et Electron) localement et {% url "de façon optimale dans un processus d'intégration continue" cross-browser-testing %}.
 
-## {% fa fa-cog %} Paramétrer des tests
+## {% fa fa-cog %} Parametrer des tests
 
 Il n'y a ni serveur, ni driver, ni aucune autre dépendance à installer ou à configurer. Vous pouvez écrire votre premier test réussi en 60 secondes.
 There are no servers, drivers, or any other dependencies to install or configure. You can write your first passing test in 60 seconds.
@@ -87,13 +87,13 @@ Les tests écrits avec Cypress sont fait pour être facile à lire et à compren
 
 {% video local /img/snippets/writing-tests.mp4 %}
 
-## {% fa fa-play-circle %} Exécuter des tests
+## {% fa fa-play-circle %} Executer des tests
 
 Cypress s'exécute aussi rapidement que votre navigateur inteprête du contenu. You pouvez regarder les tests en temps réel pendant que vous développez vos applications! TDD FTW!
 
 {% video local /img/snippets/running-tests.mp4 %}
 
-## {% fa fa-bug %} Déboguer des tests
+## {% fa fa-bug %} Deboguer des tests
 
 Des messages d'erreurs lisibles vous aident à déboguer rapidement. Vous avez aussi accès à tous les outils de développement que vous connaissez et appréciez.
 
